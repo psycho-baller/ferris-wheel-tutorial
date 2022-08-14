@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+    /* position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%); */
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
 }
 
 .App-logo {
@@ -7,21 +13,37 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.tech-icon{
+  height: 40px;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+.ferris-wheel-techs{
+  /* min-width: 100px; */
+
+  right: 50%;
+  height: 50%;
+  position: fixed;
+  /* display: flex; */
+
+}
+.right-center{
+  /* padding: 50% 0; */
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; */
+
 }
 
 .App-link {
