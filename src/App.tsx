@@ -50,7 +50,7 @@ function App() {
               },
             }}
           >
-            <div className="right-center">
+            <div className="image-parent">
               <img
                 className='tech-icon'
                 src={require(`./tech-icons/${tech}`)}
